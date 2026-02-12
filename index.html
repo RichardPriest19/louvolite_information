@@ -776,4 +776,40 @@
             </section>
 
             <div class="note">
-                <strong>Note:</strong> Leadership roles can evolve, and Companies House provides the most authoritative list of directors. The "Meet the Team" section on the company website is not an exhaustive list of all employees but highlights key individuals showcased publicly as of January 2026. For the most up-to-date official information on directors, refer to Companies House fil
+                <strong>Note:</strong> Leadership roles can evolve, and Companies House provides the most authoritative list of directors. The "Meet the Team" section on the company website is not an exhaustive list of all employees but highlights key individuals showcased publicly as of January 2026. For the most up-to-date official information on directors, refer to Companies House filings.</strong>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Louvolite Company Information. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Go to Top Button -->
+    <button class="go-to-top" id="goToTopBtn" aria-label="Go to top">
+        ↑
+    </button>
+
+    <script>
+        // Get the button
+        const goToTopBtn = document.getElementById('goToTopBtn');
+
+        // Show button when user scrolls down 300px from the top
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                goToTopBtn.classList.add('show');
+            } else {
+                goToTopBtn.classList.remove('show');
+            }
+        });
+
+        // Scroll to top when button is clicked
+        goToTopBtn.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
